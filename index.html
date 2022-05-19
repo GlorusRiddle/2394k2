@@ -16,9 +16,6 @@
         </font>
 <br>
 <br>
-<button onclick="setTimeout(myFunction, 100);">(?)</button>
-<br>
-<br>
 <font size="5"
           face="consolas"
           color="green">
@@ -32,22 +29,24 @@
             >>>Need help?
         </font>
 <br>
-<a href="https://www.w3schools.com/" color="black">sssss</a>
-<script>
-function myFunction() {
-  alert('No help this time cünt');
-}
-          document.getElementById(“password”).focus();
 
-  function passcheck(){
+<script>
+document.getElementById(“password”).focus();
+
+
+function passcheck(){
         var password= document.getElementById(“password”).value;
 
-         if(password == ‘he lies still’){
-            alert(“INDEED”);
+         if(password == ‘your password’){
+            alert(“Ok”);
         }else{
             alert(“invalid password”);
          }
      }
+
+ function changeFont(){
+   document.getElementById(“your element id”).fontSize= “30px”
+ }
 </script>
 
 </html>
